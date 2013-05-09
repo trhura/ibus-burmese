@@ -1,0 +1,27 @@
+<?xml version=\"1.0\" encoding=\"utf-8\"?>
+<!-- filename: enchant.xml -->
+<component>
+	<name>org.freedesktop.IBus.Burmse</name>
+	<description>IBus Burmese Engine</description>
+	<exec>${libexecdir}/ibus-engine-burmese --ibus</exec>
+	<version>@VERSION@</version>
+	<author>Thura Hlaing &lt;trhura@gmail.com&gt;</author>
+	<license>GPL</license>
+	<homepage>http://code.google.com/p/ibus-burmese</homepage>
+	<textdomain>ibus-burmese</textdomain>
+
+	<engines>
+		<engine>
+			<name>burmese</name>
+			<language>my_MM</language>
+			<license>GPL</license>
+			<author>Thura Hlaing &lt;trhura@gmail.com&gt;</author>
+			<icon>${pkgdatadir}/icons/ibus-burmese.svg</icon>
+			<layout>us</layout>
+			<longname>Myansan</longname>
+			<description>Myansan Burmese Input Method</description>
+			<rank>0</rank>
+		</engine>
+	</engines>
+
+</component>
